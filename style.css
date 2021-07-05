@@ -1,19 +1,26 @@
 body {
+  font-family: "Roboto", sans-serif;
   font-family: "Ubuntu", sans-serif;
-  margin: 0px;
+  margin: auto;
+}
+p {
+  font-size: large;
+  font-weight: 560;
 }
 h1 {
   font-size: 50px;
   font-weight: bolder;
+  margin-bottom: 0px;
 }
 #grey-paragraph {
   color: grey;
-  font-weight: 700;
+  font-weight: 800;
 }
 .grey {
   color: grey;
-  font-size: 35px;
+  font-size: 50px;
   font-weight: bolder;
+  font-stretch: extra-expanded;
 }
 #grey-recipies {
   text-align: center;
@@ -132,4 +139,19 @@ h1 {
 }
 .orange {
   color: orange;
+}
+footer h2 {
+  text-align: center;
+}
+footer p {
+  text-align: center;
+  color: white;
+}
+footer {
+  background-color: rgb(2, 0, 14);
+  padding: 85px;
+  padding-top: 10px;
+}
+#grey-col {
+  color: grey;
 }

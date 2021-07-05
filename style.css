@@ -82,6 +82,33 @@ h1 {
   overflow: hidden;
   background-image: linear-gradient(orange, tomato);
 }
+.fa {
+  margin-top: 100px;
+  margin-left: 140px;
+  padding: 50px;
+  font-size: 90%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-instagram {
+  background: repeating-linear-gradient(red, purple);
+  color: white;
+}
+.fa-linkedin {
+  background: repeating-linear-gradient(blue, skyblue);
+  color: white;
+}
 .top-navigation a {
   float: left;
   display: block;
